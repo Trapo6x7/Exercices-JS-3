@@ -6,17 +6,17 @@ const text = document.querySelector("#text");
 green.addEventListener("click", handleColorGreen);
 
 function handleColorGreen () {
-    text.classList.toggle("colorgreen")
+    text.style.color = "green"
 }
 
 red.addEventListener("click", handleColorRed);
 
 function handleColorRed () {
-    text.classList.toggle("colorred")
+    text.style.color = "red"
 }
 
 blue.addEventListener("click", handleColorBlue);
 
 function handleColorBlue () {
-    text.classList.toggle("colorblue")
+    text.style.color = "blue"
 }
